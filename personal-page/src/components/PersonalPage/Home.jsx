@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Home = (props) => {
   return (
-    <div>
+    <div className='person'>
       <span>Name: {props.name}</span><br />
       <span>Surname: {props.surname}</span><br />
       <span>Age: {props.age}</span><br />

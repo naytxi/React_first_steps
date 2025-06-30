@@ -12,7 +12,7 @@ function App() {
   return (
     <>
 
-      <div>
+     { /*<div>
         <Person name="John" surname="Doe" age={30} />
         <Person name="Jane" surname="Smith" age={25} />
         <Person name="Alice" surname="Johnson" age={28} />
@@ -23,11 +23,11 @@ function App() {
         <PersonClass name="Charlie" surname="Davis" age={40} />
         <PersonClass name="Eve" surname="Wilson" age={22} />
         <PersonClass name="Frank" surname="Garcia" age={34} />
-      </div>
+      </div>*/}
 
       <div>
         <Header />
-      </div>
+      </div> 
 
       <div>
         <Home 
@@ -35,7 +35,7 @@ function App() {
           surname="Ot" 
           age={25} 
           about="I am a software developer." 
-          skills="JavaScript, React, Node.js" 
+          skills="JavaScript, Html, CSS, C, Vue, React, MongoDB, SQL, Node.js" 
           jobs="Software Engineer at XYZ Corp" 
         />
       </div>

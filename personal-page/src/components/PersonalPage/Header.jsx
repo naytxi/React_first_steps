@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 const Header = () => {
   return (
-    <div>
-      <h2>NAY</h2>
-      <button>About</button>
-      <button>Jobs</button>
-      <button>Skills</button>
+    <div className='header'>
+      <h2 className='tittle'>NAY</h2>
+      <nav className='nav'>
+        <a href='#home'>Home</a>
+        <a href='#about'>About</a>
+        <a href='#skills'>Skills</a>
+        <a href='#jobs'>Jobs</a>
+      </nav>
     </div>
   );
 };
